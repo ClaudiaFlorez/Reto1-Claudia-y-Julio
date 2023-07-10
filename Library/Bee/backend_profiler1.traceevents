@@ -1,0 +1,570 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1688935804381960, "dur":984, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804382950, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688935804383066, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688935804383079, "dur":266, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688935804383360, "dur":470, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804383830, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804904829, "dur":314, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905143, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905151, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905154, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905159, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905161, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905164, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905165, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905170, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905171, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905173, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905174, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905178, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905179, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905184, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905185, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905187, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905189, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905192, "dur":40, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905232, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905235, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905236, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905239, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905240, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905246, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905262, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804905298, "dur":1265, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688935804383723, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804383889, "dur":2338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804386227, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1688935804386252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804434907, "dur":60046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1688935804494973, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804495031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804495038, "dur":15766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804510838, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804510874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804510879, "dur":38729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804549645, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804549686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804549693, "dur":18502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804568230, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804568263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804568267, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804569098, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804569131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804569135, "dur":16035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804585206, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804585270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804585278, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804586216, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804586246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804586252, "dur":289555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804875838, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804875875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804875878, "dur":6897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688935804882810, "dur":18889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1688935804901707, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688935804901719, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1688935804902800, "dur":2027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804383720, "dur":157, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804383877, "dur":2303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804386189, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1688935804386235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804429234, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1688935804430435, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804430477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804430515, "dur":31603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804462149, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804462189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804462195, "dur":12408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804474632, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804474673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804474679, "dur":15500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804490203, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804490228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804490233, "dur":15048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804505309, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804505344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804505349, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804506002, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804506035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804506039, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804506660, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804506693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804506697, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804508078, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804508111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804508141, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804508990, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804509030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804509034, "dur":15519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804524584, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804524615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804524623, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804525388, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804525420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804525425, "dur":16657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804542114, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804542149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804542154, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804543026, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804543059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804543062, "dur":16325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804559427, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804559463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804559469, "dur":20050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804579549, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804579578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804579582, "dur":295380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804875010, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804875041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804875047, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804877031, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804877063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804877067, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688935804879295, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688935804879342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804879346, "dur":14637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688935804894014, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1688935804894049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688935804894053, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1688935804897936, "dur":6946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804383655, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804383856, "dur":2328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804386189, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1688935804386223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804386795, "dur":43291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1688935804430102, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688935804430556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804430559, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688935804431363, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804431391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804431394, "dur":15881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804447303, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804447339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804447344, "dur":22768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804470138, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804470173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804470177, "dur":79556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804549762, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804549796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804549800, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804550458, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804550496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804550500, "dur":17490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804568025, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804568065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804568072, "dur":26213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804594314, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804595026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804595030, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804596831, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804596862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804596865, "dur":278874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804875764, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804875791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804875794, "dur":6181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688935804882060, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688935804882099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804882102, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688935804885546, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688935804885593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804885600, "dur":9718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688935804895353, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688935804895402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688935804895408, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688935804897697, "dur":7113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804383714, "dur":157, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804383871, "dur":2310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804386189, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1688935804386223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804386686, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1688935804388083, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688935804388096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804388193, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688935804388733, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1688935804388743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804388745, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1688935804389285, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1688935804389294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804389297, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1688935804389899, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1688935804389914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804389918, "dur":38908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1688935804428871, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688935804428915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804428923, "dur":167448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688935804596393, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688935804596426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804596429, "dur":278808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688935804875257, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688935804875277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804875280, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688935804877351, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688935804877382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804877385, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688935804879727, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688935804879763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688935804879766, "dur":17853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688935804897649, "dur":7162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804383647, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804383849, "dur":2341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804386191, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1688935804386240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804429528, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1688935804430643, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804430681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804430684, "dur":12526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804443239, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804443272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804443299, "dur":25800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804469129, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804469171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804469177, "dur":12338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804481545, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804481579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804481586, "dur":15201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804496875, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804496918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804496922, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804497894, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804497937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804497942, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804498900, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804498937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804498942, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804502344, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804502668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804502674, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804503625, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804503655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804503660, "dur":16682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804520373, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804520405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804520411, "dur":15468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804535915, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804535952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804535959, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804536855, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804536883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804536887, "dur":18398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804555319, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804555358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804555365, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804556419, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804556451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804556455, "dur":15980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804572464, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804572496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804572499, "dur":18937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804591469, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804591796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804591800, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804592774, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804592806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804592811, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804593916, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804594303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804594308, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804596125, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804596159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804596163, "dur":278976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804875173, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804875212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804875215, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804877558, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804877699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804877703, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688935804879501, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688935804879541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804879544, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688935804880516, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688935804880551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804880554, "dur":15140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688935804896076, "dur":1902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1688935804897981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688935804897989, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1688935804899114, "dur":5744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804383679, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804383863, "dur":2319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804386189, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1688935804386232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804387561, "dur":42251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1688935804429830, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1688935804429854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804429857, "dur":156603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1688935804586482, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688935804586517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804586520, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688935804587376, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688935804587412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804587417, "dur":287680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688935804875129, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688935804875162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804875166, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688935804877628, "dur":24727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688935804902360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688935804902513, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688935804903224, "dur":1616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804383626, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804383844, "dur":2334, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804386189, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1688935804386192, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804386290, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1688935804386294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804438257, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1688935804442326, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804442368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804442373, "dur":22821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804465225, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804465256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804465263, "dur":19063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804484365, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804484403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804484410, "dur":11487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804495930, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804495962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804495965, "dur":14890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804510887, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804511012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804511017, "dur":28690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804539736, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804539784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804539791, "dur":17215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804557044, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804557086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804557090, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804557765, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804557800, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804557804, "dur":317193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804875038, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804875065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804875067, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804877109, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804877134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804877136, "dur":7634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688935804884818, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688935804884868, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688935804884881, "dur":12938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688935804897867, "dur":7010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804383753, "dur":142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804383895, "dur":2316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804386214, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1688935804386242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804430077, "dur":65036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1688935804495130, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804495174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804495178, "dur":47783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804542992, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804543022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804543026, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804543894, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804543923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804543952, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804544710, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804544738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804544742, "dur":29241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804574014, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804574053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804574059, "dur":17050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804591146, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804591280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804591286, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804592927, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804593148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804593151, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804594555, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804594583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804594586, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804596416, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804596448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804596451, "dur":279064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804875534, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804875554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804875557, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688935804878017, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1688935804878055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804878059, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1688935804879345, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688935804879381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804879384, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688935804881863, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688935804881904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804881907, "dur":11853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688935804893796, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1688935804893847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688935804893851, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1688935804897511, "dur":7301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804383783, "dur":123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804383906, "dur":2296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804386206, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1688935804386244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804430439, "dur":64793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1688935804495246, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804495301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804495305, "dur":60535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804555871, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804555902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804555906, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804556942, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804557007, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804557011, "dur":15408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804572455, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804572490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804572497, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804574330, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804574362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804574366, "dur":18131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804592524, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804592989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804592993, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804594338, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804594434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804594438, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804596043, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804596480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804596483, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804597337, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804597463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804597467, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804598923, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804599118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804599124, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804602030, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804602160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804602167, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804602856, "dur":1006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804603865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804603870, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804604528, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804604565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804604568, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804606000, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804606027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804606031, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804606630, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804606659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804606662, "dur":269458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804876143, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804876171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804876173, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688935804879810, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1688935804879854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804879858, "dur":13213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1688935804893108, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/level3" }}
+,{ "pid":12345, "tid":9, "ts":1688935804893237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688935804893241, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/level3" }}
+,{ "pid":12345, "tid":9, "ts":1688935804896646, "dur":8167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804383825, "dur":86, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804383911, "dur":2284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804386197, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1688935804386224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804387209, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1688935804388068, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1688935804388079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804388199, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1688935804388764, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1688935804388777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804388779, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1688935804389488, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1688935804389502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804389505, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1688935804390089, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688935804390120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804390188, "dur":39081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688935804429284, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688935804429330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804429333, "dur":354366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688935804783721, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688935804783758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804783763, "dur":92244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688935804876041, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688935804876080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804876084, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688935804878698, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":10, "ts":1688935804878736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688935804878740, "dur":26024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":10, "ts":1688935804904785, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1688935804904787, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804383850, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804383850, "dur":2342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804386193, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1688935804386230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804387334, "dur":42909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1688935804430255, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1688935804430270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804430380, "dur":226635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1688935804657034, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688935804657059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804657062, "dur":219605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688935804876699, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688935804876722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804876725, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688935804879872, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1688935804879913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804879917, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1688935804881410, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1688935804881489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804881496, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1688935804882658, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1688935804882775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804882779, "dur":11389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1688935804894205, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1688935804894244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688935804894247, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1688935804896620, "dur":8208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804383888, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804383889, "dur":2329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804386222, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1688935804386252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804434654, "dur":60499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1688935804495168, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804495213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804495217, "dur":19291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804514541, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804514577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804514584, "dur":26859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804541479, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804541514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804541521, "dur":16034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804557594, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804557627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804557631, "dur":21302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804578969, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804579006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804579013, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804580178, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804580214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804580218, "dur":22984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804603234, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804603372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804603378, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804604232, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804604352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804604355, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804605045, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804605098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804605102, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804607782, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804607818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804607822, "dur":268426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804876269, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804876305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804876308, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688935804878889, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":12, "ts":1688935804878946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804878982, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":12, "ts":1688935804880035, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1688935804880067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804880071, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1688935804881768, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1688935804881803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804881808, "dur":11126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1688935804892994, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/level4" }}
+,{ "pid":12345, "tid":12, "ts":1688935804893038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804893048, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/level4" }}
+,{ "pid":12345, "tid":12, "ts":1688935804895998, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/BloodVania-2D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1688935804896029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688935804896033, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/BloodVania-2D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1688935804899452, "dur":5397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688935804907759, "dur":1868, "ph":"X", "name": "ProfilerWriteOutput" }
+,
